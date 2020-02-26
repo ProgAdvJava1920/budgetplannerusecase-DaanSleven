@@ -1,0 +1,30 @@
+appenders = console,rolling
+
+# Direct log messages to console
+appender.console.type = Console
+appender.console.name = STDOUT
+appender.console.layout.type = PatternLayout
+appender.console.layout.pattern = %d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n
+
+# Log messages to rolling file
+appender.rolling.type = RollingFile
+appender.rolling.name = ROLLING_FILE
+appender.rolling.fileName = src/main/resources/logs/output.log
+appender.rolling.filePattern = src/main/resources/logs/output.%d{dd-MMM}.log.gz
+appender.rolling.layout.type = PatternLayout
+appender.rolling.layout.pattern = %d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n
+appender.rolling.policies.type = Policies
+appender.rolling.policies.size.type = SizeBasedTriggeringPolicy
+appender.rolling.policies.size.size=10MB
+appender.rolling.strategy.type = DefaultRolloverStrategy
+appender.rolling.strategy.max = 5
+
+logger.rolling.name = rollingFile
+logger.rolling.level = debug
+logger.rolling.additivity = false
+logger.rolling.appenderRef.rolling.ref = ROLLING_FILE
+
+# Root logger option
+rootLogger.level=debug
+rootLogger.appenderRefs = rolling
+rootLogger.appenderRef.stdout.ref=ROLLING_FILE

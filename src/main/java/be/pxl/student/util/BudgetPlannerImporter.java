@@ -43,9 +43,12 @@ public class BudgetPlannerImporter {
 
             String line = null;
             while((line=reader.readLine())!=null){
-                Account account = AccountMapper.map(line);
-
-                LOGGER.debug(account.toString());
+                try {
+                    Account account = AccountMapper.map(line);
+                    LOGGER.debug(account.toString());
+                }catch(IllegalArgumentException exception){
+                    LOGGER.fatal("Error mapping line: " + exception.getMessage());
+                }
             }
         }catch(Exception exception){
             LOGGER.fatal(exception.getMessage());
