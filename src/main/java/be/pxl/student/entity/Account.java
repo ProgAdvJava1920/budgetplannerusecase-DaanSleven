@@ -1,13 +1,25 @@
 package be.pxl.student.entity;
 
+import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Entity
+@Table(name = "accounts")
 public class Account {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
     private String IBAN;
     private String name;
-    private List<Payment> payments;
+    @OneToMany(mappedBy = "account")
+    private List<Payment> payments = new ArrayList<>();
+
+    public Account(){
+
+    }
 
     public String getIBAN() {
         return IBAN;
@@ -25,19 +37,15 @@ public class Account {
         this.name = name;
     }
 
-    public List<Payment> getPayments() {
-        return payments;
-    }
-
-    public void setPayments(List<Payment> payments) {
-        this.payments = payments;
-    }
-
     @Override
     public String toString() {
         return "Account{" +
                 "IBAN='" + IBAN + '\'' +
                 ", name='" + name + '\'' +
-                ", payments=[" + payments.stream().map(Payment::toString).collect(Collectors.joining(",")) + "]}";
+                ", outgoing payments=[" + payments.stream().map(Payment::toString).collect(Collectors.joining(",")) + "]}";
+    }
+
+    public List<Payment> getPayments() {
+        return payments;
     }
 }

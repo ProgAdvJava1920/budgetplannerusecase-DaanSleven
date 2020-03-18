@@ -14,7 +14,7 @@ public class AccountMapperTest {
     @Test
     public void aValidLineIsMappedToAnAccount(){
         String validLine = "Jos,BE69771770897312,BE17795215960626,Thu Feb 13 05:47:35 CET 2020,265.8,EUR,Some description.";
-        Account account = AccountMapper.map(validLine);
+        Account account = AccountMapper.map(validLine.split(","));
 
         assertNotNull(account);
         assertEquals("Jos",account.getName());
@@ -32,7 +32,7 @@ public class AccountMapperTest {
     public void anInvalidLineThrowsAPaymentException(){
         String inValidLine = "Jos,BE69771770897312,BE17795215960626,Thu Feb 13 05:47:35 CET 2020,tweehonderd,EUR,Some description.";
 
-        Exception exception = assertThrows(IllegalArgumentException.class,()->AccountMapper.map(inValidLine));
+        Exception exception = assertThrows(IllegalArgumentException.class,()->AccountMapper.map(inValidLine.split(",")));
         Assertions.assertTrue(exception.getMessage().toLowerCase().contains("payment"));
     }
 
@@ -40,7 +40,7 @@ public class AccountMapperTest {
     public void anInvalidLineFieldCountThrowsFieldException(){
         String inValidLine = "Jos,BE69771770897312,BE17795215960626,Thu Feb 13 05:47:35 CET 2020,265.8,EUR";
 
-        Exception exception = assertThrows(IllegalArgumentException.class,()->AccountMapper.map(inValidLine));
+        Exception exception = assertThrows(IllegalArgumentException.class,()->AccountMapper.map(inValidLine.split(",")));
         Assertions.assertTrue(exception.getMessage().toLowerCase().contains("field"));
     }
 }
