@@ -50,38 +50,33 @@ public class BudgetPlannerImporter {
             transaction.begin();
             String line = null;
             while((line=reader.readLine())!=null){
-                try {
-                    String[] splitLine = line.split(",");
-                    Account account = AccountMapper.map(splitLine);
-                    Account counterAccount = CounterAccountMapper.map(splitLine);
-                    Payment payment = PaymentMapper.map(splitLine);
+                String[] splitLine = line.split(",");
+                Account account = AccountMapper.map(splitLine);
+                Account counterAccount = CounterAccountMapper.map(splitLine);
+                Payment payment = PaymentMapper.map(splitLine);
 
-                    //Counter Account
-                    if(!addedAccounts.containsKey(counterAccount.getIBAN())) {
-                        addedAccounts.put(counterAccount.getIBAN(), counterAccount);
-                        entityManager.persist(counterAccount);
-                        payment.setCounterAccount(account);
-                    }else{
-                        payment.setCounterAccount(addedAccounts.get(account.getIBAN()));
-                    }
-
-                    //Account
-                    if(!addedAccounts.containsKey(account.getIBAN())) {
-                        addedAccounts.put(account.getIBAN(), account);
-                        entityManager.persist(account);
-                        payment.setAccount(counterAccount);
-                    }else if (addedAccounts.get(account.getIBAN()).getName() == null){
-                        addedAccounts.get(account.getIBAN()).setName(account.getName());
-                        payment.setAccount(addedAccounts.get(counterAccount.getIBAN()));
-                    }else{
-                        payment.setAccount(addedAccounts.get(counterAccount.getIBAN()));
-                    }
-
-                    entityManager.persist(payment);
-
-                }catch(IllegalArgumentException exception){
-                    LOGGER.fatal("Error mapping line: " + exception.getMessage());
+                //Counter Account
+                if(!addedAccounts.containsKey(counterAccount.getIBAN())) {
+                    addedAccounts.put(counterAccount.getIBAN(), counterAccount);
+                    entityManager.persist(counterAccount);
+                    payment.setCounterAccount(counterAccount);
+                }else{
+                    payment.setCounterAccount(addedAccounts.get(counterAccount.getIBAN()));
                 }
+
+                //Account
+                if(!addedAccounts.containsKey(account.getIBAN())) {
+                    addedAccounts.put(account.getIBAN(), account);
+                    entityManager.persist(account);
+                    payment.setAccount(account);
+                }else if (addedAccounts.get(account.getIBAN()).getName() == null){
+                    addedAccounts.get(account.getIBAN()).setName(account.getName());
+                    payment.setAccount(addedAccounts.get(account.getIBAN()));
+                }else{
+                    payment.setAccount(addedAccounts.get(account.getIBAN()));
+                }
+
+                entityManager.persist(payment);
             }
 
             transaction.commit();

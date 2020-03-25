@@ -1,83 +1,397 @@
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1279], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1280], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1281], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1282], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1283], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1284], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1285], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1286], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1287], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1288], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1289], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1290], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1291], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1292], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1293], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1294], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1295], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1296], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1297], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1298], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1299], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1300], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1301], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1302], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1303], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1304], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1305], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1306], was: [<unreferenced>] (initialized)
-2020-03-18 11:59:01 TRACE AbstractFlushingEventListener:248 - Processing unreferenced collections
-2020-03-18 11:59:01 TRACE AbstractFlushingEventListener:261 - Scheduling collection removes/(re)creates/updates
-2020-03-18 11:59:01 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 insertions, 0 updates, 0 deletions to 1206 objects
-2020-03-18 11:59:01 DEBUG AbstractFlushingEventListener:120 - Flushed: 653 (re)creations, 0 updates, 0 removals to 653 collections
-2020-03-18 11:59:01 DEBUG EntityPrinter:110 - Listing entities:
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-06T19:53:59, amount=1958.12, counterAccount=null, currency=EUR, id=1036, detail=Ab accusantium voluptate itaque commodi., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-15T07:07:49, amount=-3992.63, counterAccount=null, currency=EUR, id=1037, detail=Ipsam et voluptatem optio., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-16T10:49:37, amount=4083.0, counterAccount=null, currency=EUR, id=1038, detail=Ipsum incidunt autem harum impedit magnam animi autem., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-16T11:10:47, amount=-3072.5, counterAccount=null, currency=EUR, id=1039, detail=Quos est rerum sit., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-02-29T00:34:43, amount=2326.78, counterAccount=null, currency=EUR, id=1032, detail=Et suscipit perferendis., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-02T02:18:24, amount=4898.11, counterAccount=null, currency=EUR, id=1033, detail=Ut ut tenetur rerum quia enim a deleniti., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-04T15:45:53, amount=995.98, counterAccount=null, currency=EUR, id=1034, detail=Ducimus repudiandae vel minus eum., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-08T09:18:47, amount=1573.43, counterAccount=null, currency=EUR, id=1035, detail=Suscipit repellendus ut nulla sed ut., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-15T02:31:33, amount=439.03, counterAccount=null, currency=EUR, id=1044, detail=Hic eum doloremque beatae., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-09T07:10:01, amount=-3602.66, counterAccount=null, currency=EUR, id=1045, detail=Voluptatem totam debitis sint voluptatem., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-13T22:18:08, amount=3120.67, counterAccount=null, currency=EUR, id=1046, detail=Impedit possimus eaque deserunt dolore vel ipsa earum., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-02-29T23:09:24, amount=-4122.8, counterAccount=null, currency=EUR, id=1047, detail=Odit eum veritatis., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-15T05:00:13, amount=-1269.06, counterAccount=null, currency=EUR, id=1040, detail=Molestias qui ea aperiam., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-02-24T08:43:54, amount=4763.77, counterAccount=null, currency=EUR, id=1041, detail=Voluptatem adipisci dolorum excepturi et., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-16T09:44:24, amount=4279.16, counterAccount=null, currency=EUR, id=1042, detail=Nesciunt aliquam vitae., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-09T10:28:33, amount=-1285.88, counterAccount=null, currency=EUR, id=1043, detail=Et minus quasi., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-05T09:57:55, amount=-390.6, counterAccount=null, currency=EUR, id=1052, detail=Odio recusandae excepturi alias illo natus sed dolorem., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-13T11:10:14, amount=3715.88, counterAccount=null, currency=EUR, id=1053, detail=Non eos qui vel exercitationem voluptatibus aspernatur., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-07T14:46:48, amount=-3669.73, counterAccount=null, currency=EUR, id=1054, detail=Sequi illo repudiandae atque impedit voluptatibus facilis neque., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-06T02:02:31, amount=-4698.08, counterAccount=null, currency=EUR, id=1055, detail=In incidunt magni expedita ut porro., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-16T02:24:45, amount=3777.36, counterAccount=null, currency=EUR, id=1048, detail=Soluta enim ipsa impedit atque ipsum et omnis., account=null}
-2020-03-18 11:59:01 DEBUG EntityPrinter:114 - More......
-2020-03-18 11:59:01 TRACE AbstractFlushingEventListener:333 - Executing flush
-2020-03-18 11:59:01 TRACE JdbcCoordinatorImpl:255 - Starting after statement execution processing [AFTER_TRANSACTION]
-2020-03-18 11:59:01 TRACE AbstractFlushingEventListener:368 - Post flush
-2020-03-18 11:59:01 TRACE SynchronizationRegistryStandardImpl:55 - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
-2020-03-18 11:59:01 TRACE AbstractLogicalConnectionImplementor:80 - Preparing to commit transaction via JDBC Connection.commit()
-2020-03-18 11:59:01 TRACE AbstractLogicalConnectionImplementor:83 - Transaction committed via JDBC Connection.commit()
-2020-03-18 11:59:01 TRACE AbstractLogicalConnectionImplementor:53 - LogicalConnection#afterTransaction
-2020-03-18 11:59:01 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
-2020-03-18 11:59:01 DEBUG LogicalConnectionManagedImpl:159 - Initiating JDBC connection release from afterTransaction
-2020-03-18 11:59:01 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
-2020-03-18 11:59:01 TRACE JdbcResourceLocalTransactionCoordinatorImpl:199 - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
-2020-03-18 11:59:01 TRACE SynchronizationRegistryStandardImpl:159 - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
-2020-03-18 11:59:01 TRACE AbstractLogicalConnectionImplementor:53 - LogicalConnection#afterTransaction
-2020-03-18 11:59:01 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
-2020-03-18 11:59:01 DEBUG LogicalConnectionManagedImpl:159 - Initiating JDBC connection release from afterTransaction
-2020-03-18 11:59:01 TRACE SessionImpl:2384 - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
-2020-03-18 11:59:01 TRACE SessionImpl:356 - Closing session [8b0527fc-db44-481c-9291-f5e3fb80d2c7]
-2020-03-18 11:59:01 TRACE JdbcCoordinatorImpl:166 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@4f541e67]
-2020-03-18 11:59:01 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
-2020-03-18 11:59:01 TRACE LogicalConnectionManagedImpl:233 - Closing logical connection
-2020-03-18 11:59:01 TRACE LogicalConnectionManagedImpl:240 - Logical connection closed
-2020-03-18 11:59:01 DEBUG SessionFactoryImpl:769 - HHH000031: Closing
-2020-03-18 11:59:01 TRACE QueryPlanCache:245 - Cleaning QueryPlan Cache
-2020-03-18 11:59:01 TRACE TypeConfiguration$Scope:211 - Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@22e5f96e] for TypeConfiguration
-2020-03-18 11:59:01 DEBUG TypeConfiguration$Scope:350 - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@79c4f23b] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@22e5f96e]
-2020-03-18 11:59:01 DEBUG AbstractServiceRegistryImpl:419 - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
-2020-03-18 11:59:01 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3307/musicdb?useSSL=false]
-2020-03-18 11:59:01 DEBUG BootstrapServiceRegistryImpl:295 - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1618], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1619], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1620], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1621], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1622], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1623], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1624], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1625], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1626], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1627], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1628], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1629], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1630], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1631], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1632], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1633], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1634], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1635], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1636], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1637], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1638], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1639], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1640], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1641], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1642], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1643], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1644], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1645], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1646], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1647], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1648], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1649], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1650], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1651], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1652], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1653], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1654], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1655], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1656], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1657], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1658], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1659], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1660], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1661], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1662], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1663], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1664], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1665], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1666], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1667], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1668], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1669], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1670], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1671], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1672], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1673], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1674], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1675], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1676], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1677], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1678], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1679], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1680], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1681], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1682], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1683], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1684], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1685], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1686], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1687], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1688], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1689], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1690], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1691], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1692], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1693], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1694], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1695], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1696], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1697], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1698], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1699], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1700], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1701], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1702], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1703], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1704], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1705], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1706], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1707], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1708], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1709], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1710], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1711], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1712], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1713], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1714], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1715], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1716], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1717], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1718], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1719], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1720], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1721], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1722], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1723], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1724], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1725], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1726], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1727], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1728], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1729], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1730], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1731], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1732], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1733], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1734], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1735], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1736], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1737], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1738], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1739], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1740], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1741], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1742], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1743], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1744], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1745], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1746], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1747], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1748], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1749], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1750], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1751], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1752], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1753], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1754], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1755], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1756], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1757], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1758], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1759], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1760], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1761], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1762], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1763], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1764], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1765], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1766], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1767], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1768], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1769], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1770], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1771], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1772], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1773], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1774], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1775], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1776], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1777], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1778], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1779], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1780], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1781], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1782], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1783], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1784], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1785], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1786], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1787], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1788], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1789], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1790], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1791], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1792], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1793], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1794], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1795], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1796], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1797], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1798], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1799], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1800], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1801], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1802], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1803], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1804], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1805], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1806], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1807], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1808], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1809], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1810], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1811], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1812], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1813], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1814], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1815], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1816], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1817], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1818], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1819], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1820], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1821], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1822], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1823], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1824], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1825], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1826], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1827], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1828], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1829], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1830], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1831], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1832], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1833], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1834], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1835], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1836], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1837], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1838], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1839], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1840], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1841], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1842], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1843], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1844], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1845], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1846], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1847], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1848], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1849], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1850], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1851], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1852], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1853], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1854], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1855], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1856], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1857], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1858], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1859], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1860], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1861], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1862], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1863], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1864], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1865], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1866], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1867], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1868], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1869], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1870], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1871], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1872], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1873], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1874], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1875], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1876], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1877], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1878], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1879], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1880], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1881], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1882], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1883], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1884], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1885], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1886], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1887], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1888], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1889], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1890], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1891], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1892], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1893], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1894], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1895], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1896], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1897], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1898], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1899], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1900], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1901], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1902], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1903], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1904], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1905], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1906], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1907], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1908], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1909], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1910], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1911], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1912], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1913], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1914], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1915], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1916], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1917], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1918], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1919], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1920], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1921], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1922], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1923], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1924], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1925], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1926], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1927], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1928], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1929], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1930], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1931], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1932], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1933], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1934], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1935], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1936], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1937], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1938], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1939], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1940], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1941], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1942], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1943], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1944], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1945], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1946], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1947], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1948], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1949], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1950], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1951], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1952], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1953], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1954], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1955], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1956], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1957], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1958], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 DEBUG Collections:196 - Collection found: [be.pxl.student.entity.Account.payments#1959], was: [<unreferenced>] (initialized)
+2020-03-25 10:52:40 TRACE AbstractFlushingEventListener:248 - Processing unreferenced collections
+2020-03-25 10:52:40 TRACE AbstractFlushingEventListener:261 - Scheduling collection removes/(re)creates/updates
+2020-03-25 10:52:40 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 insertions, 0 updates, 0 deletions to 1206 objects
+2020-03-25 10:52:40 DEBUG AbstractFlushingEventListener:120 - Flushed: 653 (re)creations, 0 updates, 0 removals to 653 collections
+2020-03-25 10:52:40 DEBUG EntityPrinter:110 - Listing entities:
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-16T08:35:28, amount=-1140.47, counterAccount=be.pxl.student.entity.Account#1309, currency=EUR, id=1108, detail=Beatae omnis culpa illum dolores aut adipisci., account=be.pxl.student.entity.Account#1308}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-02-26T19:18:58, amount=4364.46, counterAccount=be.pxl.student.entity.Account#1310, currency=EUR, id=1109, detail=Modi et iste tempora nisi ut pariatur., account=be.pxl.student.entity.Account#1308}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-16T01:47:39, amount=409.37, counterAccount=be.pxl.student.entity.Account#1311, currency=EUR, id=1110, detail=Et voluptas nihil., account=be.pxl.student.entity.Account#1308}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-10T13:21:04, amount=-2636.57, counterAccount=be.pxl.student.entity.Account#1312, currency=EUR, id=1111, detail=Repellat sed eos consequatur molestiae deserunt et., account=be.pxl.student.entity.Account#1308}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-15T07:32, amount=4138.63, counterAccount=be.pxl.student.entity.Account#1307, currency=EUR, id=1107, detail=Tenetur ut ab molestiae rerum atque., account=be.pxl.student.entity.Account#1308}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-07T23:19:46, amount=-4845.03, counterAccount=be.pxl.student.entity.Account#1317, currency=EUR, id=1116, detail=Sed eum qui occaecati ullam dignissimos at sit., account=be.pxl.student.entity.Account#1308}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-09T01:16:33, amount=-4751.89, counterAccount=be.pxl.student.entity.Account#1318, currency=EUR, id=1117, detail=Qui voluptate aliquid deserunt et., account=be.pxl.student.entity.Account#1319}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-10T21:59:48, amount=-3982.57, counterAccount=be.pxl.student.entity.Account#1320, currency=EUR, id=1118, detail=Odit nulla molestias deserunt velit ducimus., account=be.pxl.student.entity.Account#1321}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-11T12:16:23, amount=-1990.46, counterAccount=be.pxl.student.entity.Account#1322, currency=EUR, id=1119, detail=Dolor quia officia doloremque vel., account=be.pxl.student.entity.Account#1321}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-09T14:36:07, amount=1271.18, counterAccount=be.pxl.student.entity.Account#1313, currency=EUR, id=1112, detail=Quos dolorem reiciendis., account=be.pxl.student.entity.Account#1308}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-15T07:33:57, amount=-4552.54, counterAccount=be.pxl.student.entity.Account#1314, currency=EUR, id=1113, detail=Id non vel placeat repellat magnam possimus., account=be.pxl.student.entity.Account#1308}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-02-26T03:35:11, amount=-2041.38, counterAccount=be.pxl.student.entity.Account#1315, currency=EUR, id=1114, detail=Modi non et cumque., account=be.pxl.student.entity.Account#1308}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-11T19:02:08, amount=3123.15, counterAccount=be.pxl.student.entity.Account#1316, currency=EUR, id=1115, detail=Voluptatum non occaecati laboriosam cumque., account=be.pxl.student.entity.Account#1308}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-14T15:05:20, amount=-490.65, counterAccount=be.pxl.student.entity.Account#1327, currency=EUR, id=1124, detail=Animi dolorum ea., account=be.pxl.student.entity.Account#1321}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-14T12:29:29, amount=-4026.31, counterAccount=be.pxl.student.entity.Account#1328, currency=EUR, id=1125, detail=Ut dolorem cum et quas., account=be.pxl.student.entity.Account#1329}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-08T05:56:06, amount=2670.15, counterAccount=be.pxl.student.entity.Account#1330, currency=EUR, id=1126, detail=Voluptas et nisi iste quaerat qui ipsum., account=be.pxl.student.entity.Account#1329}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-07T22:23:19, amount=-938.32, counterAccount=be.pxl.student.entity.Account#1331, currency=EUR, id=1127, detail=Distinctio possimus sed minima eum rerum consequuntur earum., account=be.pxl.student.entity.Account#1329}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-15T21:12:36, amount=-4802.31, counterAccount=be.pxl.student.entity.Account#1323, currency=EUR, id=1120, detail=Eligendi distinctio magni blanditiis sed ut aut., account=be.pxl.student.entity.Account#1321}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-14T20:20:31, amount=3127.28, counterAccount=be.pxl.student.entity.Account#1324, currency=EUR, id=1121, detail=Doloribus ab itaque optio., account=be.pxl.student.entity.Account#1321}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-13T03:46:40, amount=3542.54, counterAccount=be.pxl.student.entity.Account#1325, currency=EUR, id=1122, detail=Quas distinctio quaerat dolorem qui blanditiis., account=be.pxl.student.entity.Account#1321}
+2020-03-25 10:52:40 DEBUG EntityPrinter:117 - be.pxl.student.entity.Payment{date=2020-03-12T13:03:10, amount=4844.43, counterAccount=be.pxl.student.entity.Account#1326, currency=EUR, id=1123, detail=Esse doloremque velit., account=be.pxl.student.entity.Account#1321}
+2020-03-25 10:52:40 DEBUG EntityPrinter:114 - More......
+2020-03-25 10:52:40 TRACE AbstractFlushingEventListener:333 - Executing flush
+2020-03-25 10:52:40 TRACE JdbcCoordinatorImpl:255 - Starting after statement execution processing [AFTER_TRANSACTION]
+2020-03-25 10:52:40 TRACE AbstractFlushingEventListener:368 - Post flush
+2020-03-25 10:52:40 TRACE SynchronizationRegistryStandardImpl:55 - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+2020-03-25 10:52:40 TRACE AbstractLogicalConnectionImplementor:80 - Preparing to commit transaction via JDBC Connection.commit()
+2020-03-25 10:52:40 TRACE AbstractLogicalConnectionImplementor:83 - Transaction committed via JDBC Connection.commit()
+2020-03-25 10:52:40 TRACE AbstractLogicalConnectionImplementor:53 - LogicalConnection#afterTransaction
+2020-03-25 10:52:40 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
+2020-03-25 10:52:40 DEBUG LogicalConnectionManagedImpl:159 - Initiating JDBC connection release from afterTransaction
+2020-03-25 10:52:40 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
+2020-03-25 10:52:40 TRACE JdbcResourceLocalTransactionCoordinatorImpl:199 - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+2020-03-25 10:52:40 TRACE SynchronizationRegistryStandardImpl:159 - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+2020-03-25 10:52:40 TRACE AbstractLogicalConnectionImplementor:53 - LogicalConnection#afterTransaction
+2020-03-25 10:52:40 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
+2020-03-25 10:52:40 DEBUG LogicalConnectionManagedImpl:159 - Initiating JDBC connection release from afterTransaction
+2020-03-25 10:52:40 TRACE SessionImpl:2384 - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+2020-03-25 10:52:40 TRACE SessionImpl:356 - Closing session [24c490b1-5e9b-4c45-94d9-1774cb1695eb]
+2020-03-25 10:52:40 TRACE JdbcCoordinatorImpl:166 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@2b9d4b0]
+2020-03-25 10:52:40 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
+2020-03-25 10:52:40 TRACE LogicalConnectionManagedImpl:233 - Closing logical connection
+2020-03-25 10:52:40 TRACE LogicalConnectionManagedImpl:240 - Logical connection closed
+2020-03-25 10:52:40 DEBUG SessionFactoryImpl:769 - HHH000031: Closing
+2020-03-25 10:52:40 TRACE QueryPlanCache:245 - Cleaning QueryPlan Cache
+2020-03-25 10:52:40 TRACE TypeConfiguration$Scope:211 - Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@4d3ca6c7] for TypeConfiguration
+2020-03-25 10:52:40 DEBUG TypeConfiguration$Scope:350 - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@3514ac7d] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@4d3ca6c7]
+2020-03-25 10:52:40 DEBUG AbstractServiceRegistryImpl:419 - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2020-03-25 10:52:40 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3307/musicdb?useSSL=false]
+2020-03-25 10:52:40 DEBUG BootstrapServiceRegistryImpl:295 - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries

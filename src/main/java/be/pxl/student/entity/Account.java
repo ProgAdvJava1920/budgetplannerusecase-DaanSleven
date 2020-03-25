@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 @Entity
 @Table(name = "accounts")
+@NamedQuery(name = "findAccountByName", query = "SELECT account from Account account where account.getName()=:name")
 public class Account {
 
     @Id
